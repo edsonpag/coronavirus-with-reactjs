@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 2fr;
+}
+
+.container .panel {
+    margin: 30px 0px;
+}
+
+.container .overview {
+    display: inline-flex;
+}
+
+.container span {
+    opacity: 0.6;
+}
+
+.overview .confirmed, .deaths, .recovered {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 220px;
+    margin-right: 25px;
+}
+
+.confirmed h1 {
+    color: blueviolet;
+}
+
+.deaths h1 {
+    color: red;
+}
+
+.recovered h1 {
+    color: rgb(30, 215, 96);
+}
+
+.overview .confirmed:hover {
+    border: 3px solid blueviolet;
+    background-color: rgba(137, 43, 226, 0.2);
+}
+
+.overview .deaths:hover {
+    border: 3px solid red;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.overview .recovered:hover {
+    border: 3px solid rgb(30, 215, 96);
+    background-color: rgb(30, 215, 96, 0.2);
+}
+
+.loading {
+    display: grid;
+    justify-items: center;
+}

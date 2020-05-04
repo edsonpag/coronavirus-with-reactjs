@@ -1,0 +1,13 @@
+.tips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.hashwash, .healthcare, .house, .shakehands {
+    justify-self: center;
+    margin: 30px 0px 0px 0px;
+    padding: 30px 180px;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+}
