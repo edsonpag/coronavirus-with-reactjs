@@ -9,7 +9,7 @@
 }
 
 .container .overview {
-    display: inline-flex;
+    display: flex;
 }
 
 .container span {

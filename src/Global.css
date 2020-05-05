@@ -17,13 +17,10 @@
 
     .overview div {
         padding: 15px;
-        margin-bottom: 30px;
+        margin-top: 30px;
     }
 
-    .container {
-        grid-template-rows: 1fr 4fr;
-    }
-
+   
     .tips {
         display: flex;
         flex-direction: column;
