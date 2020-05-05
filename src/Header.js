@@ -19,6 +19,7 @@ function Header({ handleStateChange }) {
         <header>
             <h2>CORONAVÍRUS BRASIL</h2>
             <select defaultValue="" onChange={(e) => handleStateChange(e.target.value)}>
+                <option value="World">Mundo</option>
                 <option value="Brazil">Brasil</option>
                 {fetchStates.map((state, i) => <option key={i} value={state}>{state}</option>)}
             </select>

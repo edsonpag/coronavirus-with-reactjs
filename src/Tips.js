@@ -16,11 +16,11 @@ function Tips() {
             <div className="healthcare">
                 <img src={healthcare} alt="healthcare"></img>
             </div>
-            <div className="house">
-                <img src={house} alt="house"></img>
-            </div>
             <div className="shakehands">
                 <img src={shakehands} alt="shakehands"></img>
+            </div>
+            <div className="house">
+                <img src={house} alt="house"></img>
             </div>
         </div>
     );
