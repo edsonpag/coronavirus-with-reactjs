@@ -6,7 +6,6 @@ import house from './images/house.png'
 import shakehands from './images/shakehands.png'
 
 
-
 function Tips() {
     return(
         <div className="tips">
