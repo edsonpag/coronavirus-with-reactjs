@@ -35,6 +35,14 @@ function Panel({ data: { confirmed, deaths, recovered, lastUpdate } }) {
                     </h1>
                     <span>Obitos Confirmados</span>
                 </div>
+                {recovered > 0 ? (
+                    <div className="recovered">
+                        <h1>
+                            <CountUp start={0} end={recovered} duration={3} separator="." />
+                        </h1>
+                        <span>Recuperados</span>
+                    </div> 
+                ) : null }
             </div>
         </div>
 
